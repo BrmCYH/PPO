@@ -1,0 +1,103 @@
+C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\buffer.py:87: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(it, dtype=torch.float32).unsqueeze(0)
+C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\buffer.py:89: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(it, dtype=torch.float32)
+C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\torch\nn\modules\loss.py:535: UserWarning: Using a target size (torch.Size([64, 1])) that is different to the input size (torch.Size([64, 64, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\buffer.py:87: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(it, dtype=torch.float32).unsqueeze(0)
+C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\buffer.py:89: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(it, dtype=torch.float32)
+| RewardAvg:  -3.84205 | Time exausted average:  1.11s |
+C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\torch\nn\modules\loss.py:535: UserWarning: Using a target size (torch.Size([64, 1])) that is different to the input size (torch.Size([64, 64, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+| RewardAvg:  -8.92712 | Time exausted average: 0.671s |
+| RewardAvg:  -9.92933 | Time exausted average: 0.785s |
+| RewardAvg:  -7.92768 | Time exausted average:   0.8s |
+| RewardAvg:  -5.22147 | Time exausted average: 0.899s |
+| RewardAvg:  -7.58863 | Time exausted average: 0.845s |
+| RewardAvg:  -8.89637 | Time exausted average: 0.912s |
+| RewardAvg:  -7.32022 | Time exausted average:   0.9s |
+| RewardAvg:  -9.42316 | Time exausted average: 0.884s |
+| RewardAvg:  -9.50577 | Time exausted average: 0.872s |
+| RewardAvg:  -6.31159 | Time exausted average:  0.85s |
+| RewardAvg:  -7.59613 | Time exausted average: 0.907s |
+| RewardAvg:  -8.76945 | Time exausted average: 0.941s |
+| RewardAvg:  -6.91373 | Time exausted average: 0.985s |
+| RewardAvg:  -5.71219 | Time exausted average: 0.957s |
+| RewardAvg:  -7.60495 | Time exausted average: 0.954s |
+| RewardAvg:   -9.7062 | Time exausted average: 0.984s |
+| RewardAvg:  -8.66917 | Time exausted average:  0.89s |
+| RewardAvg:  -8.56415 | Time exausted average: 0.822s |
+| RewardAvg:  -9.37799 | Time exausted average: 0.882s |
+| RewardAvg:  -7.72604 | Time exausted average: 0.813s |
+| RewardAvg:  -5.51372 | Time exausted average: 0.902s |
+| RewardAvg:  -8.51225 | Time exausted average: 0.889s |
+| RewardAvg:  -10.0329 | Time exausted average: 0.855s |
+| RewardAvg:  -9.69622 | Time exausted average:  1.09s |
+| RewardAvg:  -12.4232 | Time exausted average:  0.93s |
+| RewardAvg:  -8.32415 | Time exausted average: 0.852s |
+| RewardAvg:  -7.83254 | Time exausted average: 0.865s |
+| RewardAvg:  -9.07262 | Time exausted average: 0.852s |
+| RewardAvg:  -7.57454 | Time exausted average: 0.799s |
+| RewardAvg:  -10.2487 | Time exausted average: 0.899s |
+| RewardAvg:  -9.21914 | Time exausted average: 0.928s |
+| RewardAvg:  -8.43633 | Time exausted average: 0.957s |
+| RewardAvg:  -6.64036 | Time exausted average:  0.97s |
+| RewardAvg:  -8.27931 | Time exausted average:   1.3s |
+| RewardAvg:  -7.95005 | Time exausted average: 0.918s |
+| RewardAvg:  -8.73573 | Time exausted average: 0.965s |
+| RewardAvg:  -8.83273 | Time exausted average: 0.973s |
+| RewardAvg:  -7.63857 | Time exausted average: 0.882s |
+| RewardAvg:  -7.84021 | Time exausted average: 0.821s |
+| RewardAvg:  -8.61682 | Time exausted average:  0.98s |
+| RewardAvg:  -9.21767 | Time exausted average: 0.986s |
+| RewardAvg:  -8.96005 | Time exausted average: 0.996s |
+| RewardAvg:  -9.03832 | Time exausted average: 0.893s |
+| RewardAvg:   -9.4214 | Time exausted average: 0.901s |
+| RewardAvg:  -9.58326 | Time exausted average: 0.913s |
+| RewardAvg:  -11.2415 | Time exausted average: 0.938s |
+| RewardAvg:    -8.097 | Time exausted average: 0.993s |
+| RewardAvg:  -9.03078 | Time exausted average:  1.01s |
+| RewardAvg:  -6.55845 | Time exausted average: 0.967s |
+| RewardAvg:   -9.2551 | Time exausted average:  1.15s |
+| RewardAvg:    -8.484 | Time exausted average: 0.982s |
+| RewardAvg:  -8.85205 | Time exausted average: 0.941s |
+| RewardAvg:  -11.9997 | Time exausted average: 0.928s |
+| RewardAvg:  -8.84038 | Time exausted average: 0.909s |
+| RewardAvg:  -9.82226 | Time exausted average:  1.01s |
+| RewardAvg:  -9.61838 | Time exausted average:  1.61s |
+| RewardAvg:  -7.40045 | Time exausted average:  1.11s |
+| RewardAvg:  -8.82707 | Time exausted average: 0.979s |
+| RewardAvg:  -8.80182 | Time exausted average:   1.1s |
+| RewardAvg:  -8.76054 | Time exausted average: 0.927s |
+| RewardAvg:  -10.7136 | Time exausted average: 0.934s |
+| RewardAvg:  -7.65433 | Time exausted average:  1.17s |
+| RewardAvg:  -9.12882 | Time exausted average:  1.02s |
+| RewardAvg:  -8.32223 | Time exausted average:   1.0s |
+| RewardAvg:  -12.0153 | Time exausted average: 0.889s |
+| RewardAvg:  -11.1381 | Time exausted average: 0.917s |
+| RewardAvg:   -10.582 | Time exausted average: 0.928s |
+| RewardAvg:  -9.71095 | Time exausted average: 0.938s |
+| RewardAvg:  -7.18247 | Time exausted average:  0.91s |
+| RewardAvg:  -7.92494 | Time exausted average:  1.11s |
+| RewardAvg:  -11.4467 | Time exausted average: 0.915s |
+| RewardAvg:  -9.25517 | Time exausted average: 0.944s |
+| RewardAvg:  -9.40192 | Time exausted average: 0.924s |
+| RewardAvg:   -9.2627 | Time exausted average: 0.949s |
+| RewardAvg:  -8.51261 | Time exausted average: 0.861s |
+| RewardAvg:  -9.01765 | Time exausted average: 0.973s |
+Traceback (most recent call last):
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 90, in <module>
+    train_iteration(modelargs, trainingargs, envargs, project_name=project_name)
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 59, in train_iteration
+    loss, lr, norm = ppo.update()
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\trainer.py", line 132, in update
+    loss.backward()
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\torch\_tensor.py", line 525, in backward
+    torch.autograd.backward(
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\torch\autograd\__init__.py", line 267, in backward
+    _engine_run_backward(
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\torch\autograd\graph.py", line 744, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

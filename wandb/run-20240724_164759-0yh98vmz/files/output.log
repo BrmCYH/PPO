@@ -1,0 +1,58 @@
+
+| RewardAvg:  -3.40725 | Time exausted average: 0.656s |
+| RewardAvg:  -2.38366 | Time exausted average: 0.256s |
+| RewardAvg:  -1.08032 | Time exausted average: 0.371s |
+| RewardAvg: -0.673411 | Time exausted average: 0.581s |
+| RewardAvg: -0.909373 | Time exausted average: 0.768s |
+| RewardAvg:  -2.23932 | Time exausted average: 0.928s |
+| RewardAvg:  -2.27917 | Time exausted average:  1.09s |
+| RewardAvg: -0.182889 | Time exausted average:  1.55s |
+| RewardAvg:  -3.17071 | Time exausted average:  1.41s |
+| RewardAvg:  -2.03418 | Time exausted average:  1.38s |
+| RewardAvg:  -1.59543 | Time exausted average:  1.63s |
+| RewardAvg:  -2.71994 | Time exausted average:  1.66s |
+| RewardAvg:  -1.11845 | Time exausted average:  2.06s |
+| RewardAvg:  -3.31727 | Time exausted average:  2.28s |
+| RewardAvg:  -1.25752 | Time exausted average:  2.32s |
+| RewardAvg:  -3.87536 | Time exausted average:  3.72s |
+| RewardAvg:  -1.73299 | Time exausted average:  2.44s |
+| RewardAvg: -0.857769 | Time exausted average:  2.43s |
+| RewardAvg: -0.901476 | Time exausted average:  2.56s |
+| RewardAvg:  -2.97787 | Time exausted average:  3.21s |
+| RewardAvg:  -1.40438 | Time exausted average:  2.82s |
+| RewardAvg:  -1.57773 | Time exausted average:  2.58s |
+| RewardAvg:  -2.65885 | Time exausted average:  2.83s |
+| RewardAvg:  -1.12093 | Time exausted average:  2.95s |
+| RewardAvg:  -1.33776 | Time exausted average:  3.14s |
+| RewardAvg:  -1.72792 | Time exausted average:  3.94s |
+| RewardAvg:  -2.50752 | Time exausted average:   3.5s |
+| RewardAvg:  -2.67654 | Time exausted average:   3.6s |
+| RewardAvg:  -4.63455 | Time exausted average:  3.42s |
+| RewardAvg:  -1.00327 | Time exausted average:  3.57s |
+| RewardAvg:  -2.79987 | Time exausted average:  4.29s |
+| RewardAvg:  -2.48085 | Time exausted average:  4.28s |
+| RewardAvg:  -2.37088 | Time exausted average:  3.93s |
+| RewardAvg:   -2.5127 | Time exausted average:  3.75s |
+| RewardAvg:  -1.85451 | Time exausted average:  3.92s |
+| RewardAvg:  -1.81603 | Time exausted average:   3.8s |
+| RewardAvg:  -4.52566 | Time exausted average:  3.76s |
+| RewardAvg:  -2.54504 | Time exausted average:  4.31s |
+| RewardAvg:  -3.93084 | Time exausted average:  4.41s |
+| RewardAvg:  -2.20721 | Time exausted average:  3.95s |
+| RewardAvg:  -2.62442 | Time exausted average:  4.13s |
+Traceback (most recent call last):
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 90, in <module>
+    train_iteration(modelargs, trainingargs, envargs, project_name=project_name)
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 50, in train_iteration
+    observation, reward, done, truncated, _ = env.step(action)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\time_limit.py", line 57, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\order_enforcing.py", line 56, in step
+    return self.env.step(action)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\env_checker.py", line 51, in step
+    return self.env.step(action)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\envs\box2d\lunar_lander.py", line 675, in step
+    self.render()
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\envs\box2d\lunar_lander.py", line 787, in render
+    self.clock.tick(self.metadata["render_fps"])
+KeyboardInterrupt

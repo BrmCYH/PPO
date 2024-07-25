@@ -1,0 +1,55 @@
+C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\torch\nn\modules\loss.py:535: UserWarning: Using a target size (torch.Size([64, 1])) that is different to the input size (torch.Size([64, 64, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+| RewardAvg:  -1.83825 | Time exausted average:  2.48s |
+C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\torch\nn\modules\loss.py:535: UserWarning: Using a target size (torch.Size([64, 1])) that is different to the input size (torch.Size([64, 64, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+| RewardAvg:  -1.18035 | Time exausted average:  1.53s |
+| RewardAvg:   -1.1432 | Time exausted average:  1.84s |
+| RewardAvg: -0.714723 | Time exausted average:  1.68s |
+| RewardAvg:  -1.56476 | Time exausted average:  2.05s |
+| RewardAvg:  -1.43365 | Time exausted average:   2.5s |
+| RewardAvg:  -1.20313 | Time exausted average:  2.37s |
+| RewardAvg:   -2.2084 | Time exausted average:  2.78s |
+| RewardAvg:  -1.61323 | Time exausted average:   2.9s |
+| RewardAvg:  -3.46618 | Time exausted average:  2.73s |
+| RewardAvg:  -3.03456 | Time exausted average:  3.13s |
+| RewardAvg:  -1.93786 | Time exausted average:  3.17s |
+| RewardAvg:   -1.2861 | Time exausted average:  3.43s |
+| RewardAvg:  -1.33528 | Time exausted average:  3.32s |
+| RewardAvg:   -1.7699 | Time exausted average:  3.37s |
+| RewardAvg:  -1.27065 | Time exausted average:  4.61s |
+| RewardAvg:  -1.42974 | Time exausted average:  4.33s |
+| RewardAvg:  -1.40148 | Time exausted average:  4.23s |
+| RewardAvg:  -3.55254 | Time exausted average:  4.17s |
+| RewardAvg:  -3.34207 | Time exausted average:  4.36s |
+| RewardAvg: -0.823151 | Time exausted average:  4.24s |
+| RewardAvg:  -2.89595 | Time exausted average:  4.47s |
+| RewardAvg:  -1.21671 | Time exausted average:  5.22s |
+| RewardAvg:  -1.69462 | Time exausted average:  4.67s |
+| RewardAvg: -0.259619 | Time exausted average:  4.79s |
+| RewardAvg:  -5.55456 | Time exausted average:  4.95s |
+| RewardAvg:  -2.83659 | Time exausted average:  5.11s |
+| RewardAvg:  -2.99668 | Time exausted average:  5.35s |
+| RewardAvg:  -3.28979 | Time exausted average:  5.58s |
+| RewardAvg:  -4.16126 | Time exausted average:  5.33s |
+| RewardAvg:  -1.92087 | Time exausted average:  5.52s |
+| RewardAvg:  -4.01184 | Time exausted average:  5.62s |
+| RewardAvg:   -2.6391 | Time exausted average:  5.81s |
+| RewardAvg:  -2.42585 | Time exausted average:  6.37s |
+| RewardAvg:  -1.55877 | Time exausted average:  6.61s |
+Traceback (most recent call last):
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 90, in <module>
+    train_iteration(modelargs, trainingargs, envargs, project_name=project_name)
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 50, in train_iteration
+    observation, reward, done, truncated, _ = env.step(action)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\time_limit.py", line 57, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\order_enforcing.py", line 56, in step
+    return self.env.step(action)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\env_checker.py", line 51, in step
+    return self.env.step(action)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\envs\box2d\lunar_lander.py", line 675, in step
+    self.render()
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\envs\box2d\lunar_lander.py", line 738, in render
+    radius=f.shape.radius * SCALE,
+KeyboardInterrupt

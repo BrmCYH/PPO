@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\envs.py", line 21, in ob_envs
+    envs = gym.make(envargs.gym_id,
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\envs\registration.py", line 741, in make
+    env_spec = _find_spec(id)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\envs\registration.py", line 527, in _find_spec
+    _check_version_exists(ns, name, version)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\envs\registration.py", line 393, in _check_version_exists
+    _check_name_exists(ns, name)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\envs\registration.py", line 370, in _check_name_exists
+    raise error.NameNotFound(
+gymnasium.error.NameNotFound: Environment `Game` doesn't exist.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 90, in <module>
+    train_iteration(modelargs, trainingargs, envargs, project_name=project_name)
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 38, in train_iteration
+    env = ob_envs(envargs= envargs)
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\envs.py", line 27, in ob_envs
+    raise "Gym environment haven't built successfully"
+TypeError: exceptions must derive from BaseException

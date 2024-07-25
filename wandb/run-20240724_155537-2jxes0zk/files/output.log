@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 90, in <module>
+    train_iteration(modelargs, trainingargs, envargs, project_name=project_name)
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 53, in train_iteration
+    ppo.buffer.append(old_observation, action, reward, observation, action_logprob, done, state_val)
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\buffer.py", line 43, in append
+    snap = self.align_tensor(self.return_tensor, obs = obs, act = act, reward = reward, next_obs= next_obs, logprob=logprob, terminal=terminal, values=values)
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\buffer.py", line 101, in align_tensor
+    buff[k] = MemoryBuffer.type_fine(v).to(self.device)
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\buffer.py", line 87, in type_fine
+    return it.clone().detach().requiers_grad_(True).unsqueeze(0)
+AttributeError: 'Tensor' object has no attribute 'requiers_grad_'

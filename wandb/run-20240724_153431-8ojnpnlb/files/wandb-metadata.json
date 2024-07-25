@@ -1,0 +1,68 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-07-24T07:34:33.671810",
+    "startedAt": "2024-07-24T07:34:31.947484",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--state_dim",
+        "8",
+        "--action_dim",
+        "4",
+        "--hidden_dim",
+        "256",
+        "--max_steps",
+        "16",
+        "--gamma",
+        "0.7",
+        "--eps_clip",
+        "0.5",
+        "--epochs",
+        "200",
+        "--buffersize",
+        "64",
+        "--episodes",
+        "500",
+        "--grad_clip",
+        "1.0"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\happyelements\\workstation\\RLWorkstation\\RouterAgent\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "LF-0101000635",
+    "username": "happyelements",
+    "executable": "C:\\Users\\happyelements\\wpenvir\\envs\\rlt39\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 804.0,
+        "min": 0.0,
+        "max": 2112.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 804.0,
+            "min": 0.0,
+            "max": 2112.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 471.55956649780273,
+            "used": 169.4441680908203
+        }
+    },
+    "gpu": "NVIDIA GeForce MX250",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX250",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 15.737640380859375
+    }
+}

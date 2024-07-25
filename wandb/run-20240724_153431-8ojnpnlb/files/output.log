@@ -1,0 +1,26 @@
+C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\envs\registration.py:852: UserWarning: [33mWARN: `gymnasium.make(..., apply_api_compatibility=True)` and `env_spec.apply_api_compatibility` is deprecated and will be removed in v1.0
+  logger.warn(
+C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\compatibility.py:60: DeprecationWarning: [33mWARN: The `gymnasium.make(..., apply_api_compatibility=...)` parameter is deprecated and will be removed in v1.0. Instead use `gymnasium.make('GymV21Environment-v0', env_name=...)` or `from shimmy import GymV21CompatibilityV0`
+  logger.deprecation(
+C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\envs\registration.py:877: UserWarning: [33mWARN: `gymnasium.make(..., autoreset=True)` is deprecated and will be removed in v1.0
+  logger.warn(
+Traceback (most recent call last):
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 90, in <module>
+    train_iteration(modelargs, trainingargs, envargs, project_name=project_name)
+  File "C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\train.py", line 41, in train_iteration
+    observation,info = env.reset()
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\core.py", line 467, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\time_limit.py", line 75, in reset
+    return self.env.reset(**kwargs)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\order_enforcing.py", line 61, in reset
+    return self.env.reset(**kwargs)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\env_checker.py", line 57, in reset
+    return env_reset_passive_checker(self.env, **kwargs)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\utils\passive_env_checker.py", line 186, in env_reset_passive_checker
+    result = env.reset(**kwargs)
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\compatibility.py", line 91, in reset
+    self.render()
+  File "C:\Users\happyelements\wpenvir\envs\rlt39\lib\site-packages\gymnasium\wrappers\compatibility.py", line 117, in render
+    return self.env.render(mode=self.render_mode)
+TypeError: render() got an unexpected keyword argument 'mode'

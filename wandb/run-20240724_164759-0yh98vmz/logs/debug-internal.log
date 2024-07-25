@@ -1,0 +1,1038 @@
+2024-07-24 16:48:00,000 INFO    StreamThr :18984 [internal.py:wandb_internal():85] W&B internal server running at pid: 18984, started at: 2024-07-24 16:48:00.000767
+2024-07-24 16:48:00,003 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status
+2024-07-24 16:48:00,008 INFO    WriterThread:18984 [datastore.py:open_for_write():87] open: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\run-0yh98vmz.wandb
+2024-07-24 16:48:00,009 DEBUG   SenderThread:18984 [sender.py:send():379] send: header
+2024-07-24 16:48:00,012 DEBUG   SenderThread:18984 [sender.py:send():379] send: run
+2024-07-24 16:48:00,934 INFO    SenderThread:18984 [dir_watcher.py:__init__():211] watching files in: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files
+2024-07-24 16:48:00,936 INFO    SenderThread:18984 [sender.py:_start_run_threads():1188] run started: 0yh98vmz with start time 1721810880.000766
+2024-07-24 16:48:00,949 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: check_version
+2024-07-24 16:48:00,949 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: check_version
+2024-07-24 16:48:01,205 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: run_start
+2024-07-24 16:48:01,793 DEBUG   HandlerThread:18984 [system_info.py:__init__():26] System info init
+2024-07-24 16:48:01,793 DEBUG   HandlerThread:18984 [system_info.py:__init__():41] System info init done
+2024-07-24 16:48:01,793 INFO    HandlerThread:18984 [system_monitor.py:start():194] Starting system monitor
+2024-07-24 16:48:01,793 INFO    SystemMonitor:18984 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-24 16:48:01,793 INFO    HandlerThread:18984 [system_monitor.py:probe():214] Collecting system info
+2024-07-24 16:48:01,797 INFO    SystemMonitor:18984 [interfaces.py:start():188] Started cpu monitoring
+2024-07-24 16:48:01,797 INFO    SystemMonitor:18984 [interfaces.py:start():188] Started disk monitoring
+2024-07-24 16:48:01,798 INFO    SystemMonitor:18984 [interfaces.py:start():188] Started gpu monitoring
+2024-07-24 16:48:01,804 INFO    SystemMonitor:18984 [interfaces.py:start():188] Started memory monitoring
+2024-07-24 16:48:01,818 INFO    SystemMonitor:18984 [interfaces.py:start():188] Started network monitoring
+2024-07-24 16:48:01,821 DEBUG   HandlerThread:18984 [system_info.py:probe():152] Probing system
+2024-07-24 16:48:01,822 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:01,822 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:01,824 DEBUG   HandlerThread:18984 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-24 16:48:01,824 DEBUG   HandlerThread:18984 [system_info.py:probe():200] Probing system done
+2024-07-24 16:48:01,824 DEBUG   HandlerThread:18984 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.19', 'heartbeatAt': '2024-07-24T08:48:01.821131', 'startedAt': '2024-07-24T08:47:59.978651', 'docker': None, 'cuda': None, 'args': ('--state_dim', '8', '--action_dim', '4', '--hidden_dim', '256', '--max_steps', '16', '--gamma', '0.7', '--eps_clip', '0.5', '--epochs', '200', '--buffersize', '64', '--episodes', '500', '--grad_clip', '1.0', '--lr_policy', '5e-4', '--lr_critic', '6e-4'), 'state': 'running', 'program': 'C:\\Users\\happyelements\\workstation\\RLWorkstation\\RouterAgent\\train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'LF-0101000635', 'username': 'happyelements', 'executable': 'C:\\Users\\happyelements\\wpenvir\\envs\\rlt39\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 804.0, 'min': 0.0, 'max': 2112.0}, 'cpu_freq_per_core': [{'current': 804.0, 'min': 0.0, 'max': 2112.0}], 'disk': {'/': {'total': 471.55956649780273, 'used': 169.46314239501953}}, 'gpu': 'NVIDIA GeForce MX250', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX250', 'memory_total': 2147483648}], 'memory': {'total': 15.737640380859375}}
+2024-07-24 16:48:01,824 INFO    HandlerThread:18984 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-24 16:48:01,824 INFO    HandlerThread:18984 [system_monitor.py:probe():227] Publishing system info
+2024-07-24 16:48:01,824 DEBUG   HandlerThread:18984 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-24 16:48:01,950 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\conda-environment.yaml
+2024-07-24 16:48:03,837 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:03,837 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:03,951 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:03,951 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:05,966 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:05,966 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:06,079 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:06,079 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:07,223 DEBUG   HandlerThread:18984 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-24 16:48:07,228 INFO    HandlerThread:18984 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-24 16:48:07,240 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:07,240 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-24 16:48:07,240 DEBUG   SenderThread:18984 [sender.py:send():379] send: files
+2024-07-24 16:48:07,240 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-24 16:48:07,440 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-24 16:48:07,440 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: python_packages
+2024-07-24 16:48:07,441 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:48:07,441 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:07,442 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:48:08,005 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\conda-environment.yaml
+2024-07-24 16:48:08,006 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\requirements.txt
+2024-07-24 16:48:08,006 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-metadata.json
+2024-07-24 16:48:08,083 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:08,083 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:08,112 DEBUG   SenderThread:18984 [sender.py:send():379] send: telemetry
+2024-07-24 16:48:08,193 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:08,193 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:08,457 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:08,915 INFO    wandb-upload_0:18984 [upload_job.py:push():130] Uploaded file C:\Users\HAPPYE~1\AppData\Local\Temp\tmp2joq4ipswandb\ljaj25a0-wandb-metadata.json
+2024-07-24 16:48:09,458 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:10,194 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:10,194 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:10,256 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:10,257 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:10,259 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:10,259 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:10,260 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:10,306 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:10,306 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:10,460 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:11,022 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:11,023 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:11,460 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:12,138 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:12,139 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:12,140 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:12,140 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:12,319 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:12,319 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:12,432 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:12,432 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:12,461 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:13,039 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:13,039 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:13,463 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:14,206 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:14,207 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:14,208 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:14,209 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:14,444 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:14,445 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:14,463 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:14,563 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:14,563 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:15,057 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:15,057 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:15,464 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:16,214 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:16,466 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:16,576 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:16,576 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:16,696 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:16,696 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:17,079 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:17,120 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:17,122 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:17,122 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:17,123 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:17,453 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:18,092 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:18,453 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:18,702 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:18,702 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:18,827 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:18,827 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:19,095 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:19,263 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:19,265 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:19,265 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:19,267 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:19,455 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:20,108 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:20,456 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:20,842 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:20,842 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:20,960 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:20,960 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:21,110 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:21,282 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:21,458 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:22,441 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:48:22,443 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:48:22,458 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:22,910 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:22,913 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:22,914 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:22,917 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:22,962 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:22,962 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:23,084 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:23,084 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:23,118 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:23,459 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:24,460 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:25,091 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:25,091 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:25,123 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:25,211 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:25,211 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:25,462 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:26,127 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:26,129 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:26,130 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:26,133 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:26,465 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:27,193 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:27,195 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:27,215 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:27,218 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:27,357 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:27,357 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:27,452 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:28,454 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:29,225 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:29,366 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:29,366 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:29,456 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:29,486 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:29,486 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:30,457 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:31,186 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:31,188 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:31,189 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:31,192 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:31,246 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:31,464 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:31,494 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:31,494 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:31,635 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:31,636 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:32,204 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:32,467 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:33,275 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\config.yaml
+2024-07-24 16:48:33,275 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:33,467 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:33,833 ERROR   gpu       :18984 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-07-24 16:48:33,834 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:33,835 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:34,469 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:34,795 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:34,796 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:34,797 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:34,798 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:35,292 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:35,471 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:35,850 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:35,850 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:35,967 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:35,967 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:36,472 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:37,321 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:37,441 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:48:37,442 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:48:37,472 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:37,774 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:37,975 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:37,975 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:38,110 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:38,111 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:38,352 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:38,354 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:38,355 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:38,356 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:38,474 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:39,350 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:39,475 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:40,125 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:40,125 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:40,255 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:40,255 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:40,477 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:41,381 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:41,478 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:41,484 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:41,485 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:41,486 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:41,487 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:42,270 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:42,270 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:42,389 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:42,389 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:42,395 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:42,479 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:43,397 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:43,459 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:43,480 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:44,394 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:44,394 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:44,482 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:44,518 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:44,518 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:45,468 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:45,550 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:45,552 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:45,552 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:45,555 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:46,428 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:46,429 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:46,469 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:46,522 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:46,522 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:46,639 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:46,640 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:47,470 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:48,460 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:48,493 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:48,649 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:48,649 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:48,777 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:48,777 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:49,129 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:49,130 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:49,131 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:49,132 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:49,467 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:49,496 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:50,478 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:50,497 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:50,787 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:50,789 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:50,919 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:50,919 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:51,484 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:52,447 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:48:52,448 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:48:52,490 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:52,831 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:52,832 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:52,833 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:52,836 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:52,926 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:52,926 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:53,047 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:53,048 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:53,492 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:53,520 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:53,844 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:54,494 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:54,535 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:55,052 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:55,052 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:55,169 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:55,169 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:55,495 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:56,497 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:57,172 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:57,172 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:57,297 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:57,297 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:57,498 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:58,061 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:48:58,063 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:48:58,063 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:48:58,064 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:48:58,501 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:48:58,597 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:48:58,598 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:48:59,075 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:48:59,306 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:59,306 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:48:59,429 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:59,430 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:48:59,501 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:00,504 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:01,432 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:01,432 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:01,506 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:01,583 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:01,583 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:01,827 DEBUG   SystemMonitor:18984 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-24 16:49:01,835 DEBUG   SenderThread:18984 [sender.py:send():379] send: stats
+2024-07-24 16:49:02,508 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:03,208 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:03,210 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:03,210 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:03,212 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:03,509 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:03,596 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:03,597 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:03,732 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:03,732 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:03,833 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:04,228 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:04,511 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:04,860 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:05,512 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:05,963 ERROR   gpu       :18984 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-07-24 16:49:05,964 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:05,964 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:06,498 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:07,105 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:07,107 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:07,107 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:07,108 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:07,447 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:49:07,447 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:49:07,499 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:07,922 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:07,968 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:07,968 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:08,086 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:08,086 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:08,502 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:08,942 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:09,502 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:09,749 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:10,096 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:10,096 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:10,220 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:10,220 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:10,504 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:11,174 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:11,175 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:11,176 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:11,177 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:11,506 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:12,006 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:12,224 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:12,224 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:12,342 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:12,342 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:12,508 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:13,022 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:13,510 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:14,350 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:14,350 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:14,480 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:14,482 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:14,511 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:15,054 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:15,056 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:15,056 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:15,057 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:15,058 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:15,060 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:15,512 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:16,500 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:16,500 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:16,500 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:16,625 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:16,625 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:17,096 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:17,502 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:18,514 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:18,627 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:18,628 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:19,500 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:20,151 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:20,153 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:20,153 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:20,154 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:20,157 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:20,509 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:20,641 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:20,641 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:20,768 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:20,768 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:21,165 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:21,165 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:21,511 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:22,437 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:49:22,437 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:49:22,498 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:22,779 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:22,779 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:22,904 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:22,905 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:23,500 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:24,490 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:24,492 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:24,492 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:24,493 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:24,500 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:24,907 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:24,907 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:25,031 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:25,032 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:25,228 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:25,229 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:25,502 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:25,502 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:26,504 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:27,044 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:27,044 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:27,168 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:27,168 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:27,505 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:28,460 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:28,462 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:28,462 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:28,463 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:28,507 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:29,176 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:29,181 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:29,286 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:29,288 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:29,508 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:30,509 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:31,188 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:31,188 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:31,315 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:31,328 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:31,484 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:31,510 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:31,845 DEBUG   SenderThread:18984 [sender.py:send():379] send: stats
+2024-07-24 16:49:32,512 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:33,369 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:33,370 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:33,497 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:33,497 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:33,498 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:33,723 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:33,725 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:33,725 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:33,726 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:34,386 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:34,499 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:35,403 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:35,500 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:35,512 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:35,512 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:35,631 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:35,631 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:36,501 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:36,745 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:37,447 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:49:37,448 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:49:37,503 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:37,822 ERROR   gpu       :18984 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-07-24 16:49:37,822 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:37,822 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:38,293 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:38,295 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:38,296 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:38,297 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:38,440 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:38,504 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:39,454 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:39,506 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:39,825 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:39,825 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:39,942 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:39,942 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:40,507 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:41,509 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:41,949 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:41,949 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:42,072 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:42,074 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:42,343 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:42,526 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:43,115 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:43,117 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:43,118 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:43,121 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:43,521 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:43,524 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:44,076 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:44,076 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:44,193 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:44,193 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:44,508 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:45,509 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:45,556 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:46,197 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:46,197 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:46,322 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:46,322 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:46,518 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:47,486 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:47,504 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:48,331 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:48,331 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:48,468 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:48,470 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:48,507 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:48,609 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:48,612 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:48,612 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:48,614 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:48,692 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:49,508 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:50,485 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:50,486 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:50,509 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:50,605 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:50,605 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:51,511 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:51,749 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:52,440 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:49:52,440 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:49:52,513 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:52,608 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:52,608 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:52,732 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:52,732 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:52,773 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:53,515 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:54,102 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:54,104 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:54,105 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:54,108 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:54,517 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:54,747 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:54,747 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:54,839 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:49:54,840 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:49:54,903 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:54,906 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:55,518 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:56,520 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:56,910 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:56,910 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:57,037 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:57,037 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:57,521 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:58,497 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:49:58,523 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:59,043 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:59,043 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:49:59,167 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:59,167 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:49:59,524 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:49:59,693 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:49:59,695 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:49:59,696 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:49:59,697 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:49:59,893 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:00,526 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:00,903 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:01,168 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:01,168 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:01,288 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:01,289 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:01,528 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:01,853 DEBUG   SenderThread:18984 [sender.py:send():379] send: stats
+2024-07-24 16:50:02,514 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:03,291 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:03,292 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:03,415 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:03,415 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:03,507 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:03,516 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:04,517 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:04,756 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:50:04,758 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:50:04,758 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:50:04,761 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:50:04,962 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:04,962 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:05,427 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:05,427 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:05,518 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:05,547 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:05,547 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:06,519 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:07,447 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:50:07,447 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:50:07,521 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:07,559 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:07,559 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:07,681 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:07,682 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:08,522 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:08,837 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:09,523 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:09,668 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:50:09,670 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:50:09,670 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:50:09,672 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:50:09,870 ERROR   gpu       :18984 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-07-24 16:50:09,870 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:09,870 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:10,059 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:10,525 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:11,066 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:11,531 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:11,883 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:11,883 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:12,010 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:12,010 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:12,533 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:13,535 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:14,022 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:14,022 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:14,145 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:14,146 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:14,520 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:14,536 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:15,538 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:15,594 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:50:15,595 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:50:15,595 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:50:15,598 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:50:16,178 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:16,178 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:16,179 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:16,303 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:16,303 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:16,539 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:17,191 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:17,543 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:18,312 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:18,312 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:18,440 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:18,440 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:18,534 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:19,530 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:19,535 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:20,449 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:20,449 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:20,537 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:20,574 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:20,574 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:21,539 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:22,292 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:50:22,295 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:50:22,295 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:50:22,296 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:50:22,439 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:50:22,440 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:50:22,540 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:22,583 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:22,583 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:22,710 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:22,710 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:23,287 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:23,288 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:23,542 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:24,543 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:24,722 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:24,722 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:24,843 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:24,844 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:24,847 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:25,531 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:26,533 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:26,846 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:26,846 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:26,972 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:26,973 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:27,534 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:27,795 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:50:27,797 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:50:27,798 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:50:27,800 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:50:28,363 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:28,536 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:28,980 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:28,980 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:29,100 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:29,100 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:29,370 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:29,537 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:30,539 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:30,830 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:31,157 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:31,158 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:31,312 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:31,316 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:31,540 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:31,865 DEBUG   SenderThread:18984 [sender.py:send():379] send: stats
+2024-07-24 16:50:32,542 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:33,130 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:50:33,131 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:50:33,133 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:50:33,134 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:50:33,329 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:33,329 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:33,439 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:33,450 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:33,450 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:33,543 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:34,544 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:35,453 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:35,453 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:35,470 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:35,546 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:35,576 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:35,576 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:36,155 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:36,547 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:37,446 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:50:37,447 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:50:37,549 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:37,591 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:37,592 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:37,715 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:37,716 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:38,550 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:38,910 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:50:38,912 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:50:38,912 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:50:38,915 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:50:39,529 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:39,530 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:39,552 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:39,731 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:39,731 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:39,849 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:39,849 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:40,553 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:41,554 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:41,949 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:42,036 ERROR   gpu       :18984 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-07-24 16:50:42,037 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:42,038 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:42,570 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:43,556 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:44,045 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:44,045 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:44,167 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:44,167 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:44,465 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:50:44,466 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:50:44,467 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:50:44,468 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:50:44,558 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:44,600 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:45,558 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:45,610 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:46,180 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:46,180 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:46,295 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:46,295 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:46,559 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:47,504 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:47,546 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:48,300 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:48,300 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:48,422 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:48,422 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:48,547 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:49,550 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:50,322 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:50:50,323 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:50:50,325 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:50:50,328 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:50:50,427 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:50,427 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:50,548 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:50,548 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:50,552 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:50,685 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:51,553 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:51,694 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:52,444 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:50:52,444 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:50:52,551 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:52,551 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:52,554 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:52,672 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:52,672 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:52,713 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:53,555 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:54,557 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:54,680 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:54,680 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:54,804 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:54,804 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:55,558 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:56,560 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:56,785 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:50:56,786 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:50:56,787 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:50:56,788 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:50:56,812 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:56,855 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:56,988 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:56,989 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:57,562 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:57,780 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:50:57,782 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:50:58,525 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:50:58,562 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:50:59,001 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:59,001 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:50:59,136 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:59,137 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:50:59,564 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:00,566 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:01,152 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:01,152 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:01,273 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:01,274 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:01,566 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:01,868 DEBUG   SenderThread:18984 [sender.py:send():379] send: stats
+2024-07-24 16:51:02,568 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:02,729 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:51:02,731 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:51:02,731 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:51:02,732 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:51:02,884 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:51:03,288 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:03,288 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:03,406 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:03,406 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:03,570 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:03,738 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:51:03,894 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:51:04,572 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:05,419 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:05,420 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:05,547 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:05,548 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:05,573 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:06,574 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:07,449 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-24 16:51:07,450 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 16:51:07,550 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:07,550 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:07,561 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:07,674 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:07,674 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:08,121 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:51:08,122 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:51:08,123 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:51:08,124 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:51:08,562 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:08,958 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:51:09,129 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:51:09,563 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:09,680 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:09,680 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:09,795 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:09,795 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:09,960 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:51:10,565 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:11,566 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:11,807 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:11,807 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-07-24 16:51:11,928 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:11,929 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:12,567 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:13,569 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:14,117 ERROR   gpu       :18984 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-07-24 16:51:14,119 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:14,119 ERROR   gpu       :18984 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-24 16:51:14,127 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-24 16:51:14,130 DEBUG   SenderThread:18984 [sender.py:send():379] send: history
+2024-07-24 16:51:14,131 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: summary_record
+2024-07-24 16:51:14,131 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:51:14,137 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:51:14,570 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:15,038 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:51:15,572 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:15,662 DEBUG   SenderThread:18984 [sender.py:send():379] send: exit
+2024-07-24 16:51:15,662 INFO    SenderThread:18984 [sender.py:send_exit():586] handling exit code: 255
+2024-07-24 16:51:15,662 INFO    SenderThread:18984 [sender.py:send_exit():588] handling runtime: 194
+2024-07-24 16:51:15,663 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:51:15,664 INFO    SenderThread:18984 [sender.py:send_exit():594] send defer
+2024-07-24 16:51:15,664 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:15,664 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-24 16:51:15,665 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:15,665 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-24 16:51:15,665 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 1
+2024-07-24 16:51:15,665 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:15,665 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-24 16:51:15,665 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:15,666 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-24 16:51:15,666 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 2
+2024-07-24 16:51:15,666 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:15,666 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-24 16:51:15,666 INFO    HandlerThread:18984 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-24 16:51:15,666 DEBUG   SystemMonitor:18984 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-24 16:51:15,666 DEBUG   SystemMonitor:18984 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-24 16:51:15,675 INFO    HandlerThread:18984 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-24 16:51:15,675 INFO    HandlerThread:18984 [interfaces.py:finish():200] Joined disk monitor
+2024-07-24 16:51:15,830 ERROR   gpu       :18984 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-07-24 16:51:15,830 INFO    HandlerThread:18984 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-24 16:51:15,830 INFO    HandlerThread:18984 [interfaces.py:finish():200] Joined memory monitor
+2024-07-24 16:51:15,830 INFO    HandlerThread:18984 [interfaces.py:finish():200] Joined network monitor
+2024-07-24 16:51:15,831 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:15,831 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-24 16:51:15,831 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 3
+2024-07-24 16:51:15,831 DEBUG   SenderThread:18984 [sender.py:send():379] send: stats
+2024-07-24 16:51:15,831 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:15,831 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-24 16:51:15,831 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:15,833 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-24 16:51:15,833 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 4
+2024-07-24 16:51:15,833 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:15,833 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-24 16:51:15,833 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:15,833 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-24 16:51:15,833 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 5
+2024-07-24 16:51:15,833 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:15,833 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-24 16:51:15,833 DEBUG   SenderThread:18984 [sender.py:send():379] send: summary
+2024-07-24 16:51:15,834 INFO    SenderThread:18984 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-24 16:51:15,836 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:15,836 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-24 16:51:15,836 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 6
+2024-07-24 16:51:15,836 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:15,836 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-24 16:51:15,836 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:15,836 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-24 16:51:15,836 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 7
+2024-07-24 16:51:15,836 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 16:51:15,836 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:15,837 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-24 16:51:15,837 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:15,837 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-24 16:51:16,038 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:51:16,040 INFO    Thread-16 :18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:51:16,677 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-24 16:51:17,673 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 8
+2024-07-24 16:51:17,674 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 16:51:17,674 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:17,675 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-24 16:51:17,676 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:17,676 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-24 16:51:17,677 INFO    SenderThread:18984 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-24 16:51:17,680 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-24 16:51:17,681 INFO    SenderThread:18984 [job_builder.py:_get_source_type():580] no source found
+2024-07-24 16:51:17,681 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 9
+2024-07-24 16:51:17,682 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 16:51:17,682 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:17,683 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-24 16:51:17,685 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:17,685 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-24 16:51:17,685 INFO    SenderThread:18984 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-24 16:51:18,057 INFO    SenderThread:18984 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:51:18,059 INFO    SenderThread:18984 [dir_watcher.py:finish():388] scan: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files
+2024-07-24 16:51:18,060 INFO    SenderThread:18984 [dir_watcher.py:finish():402] scan save: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\conda-environment.yaml conda-environment.yaml
+2024-07-24 16:51:18,061 INFO    SenderThread:18984 [dir_watcher.py:finish():402] scan save: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\config.yaml config.yaml
+2024-07-24 16:51:18,065 INFO    SenderThread:18984 [dir_watcher.py:finish():402] scan save: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log output.log
+2024-07-24 16:51:18,070 INFO    SenderThread:18984 [dir_watcher.py:finish():402] scan save: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\requirements.txt requirements.txt
+2024-07-24 16:51:18,073 INFO    SenderThread:18984 [dir_watcher.py:finish():402] scan save: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-metadata.json wandb-metadata.json
+2024-07-24 16:51:18,074 INFO    SenderThread:18984 [dir_watcher.py:finish():402] scan save: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json wandb-summary.json
+2024-07-24 16:51:18,077 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 10
+2024-07-24 16:51:18,078 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:18,078 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-24 16:51:18,079 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:18,079 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-24 16:51:18,079 INFO    SenderThread:18984 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-24 16:51:18,631 INFO    wandb-upload_0:18984 [upload_job.py:push():130] Uploaded file C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\conda-environment.yaml
+2024-07-24 16:51:18,710 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-24 16:51:18,710 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 16:51:18,920 INFO    wandb-upload_1:18984 [upload_job.py:push():130] Uploaded file C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\config.yaml
+2024-07-24 16:51:19,052 INFO    wandb-upload_2:18984 [upload_job.py:push():130] Uploaded file C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\output.log
+2024-07-24 16:51:19,366 INFO    wandb-upload_3:18984 [upload_job.py:push():130] Uploaded file C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\requirements.txt
+2024-07-24 16:51:19,425 INFO    wandb-upload_4:18984 [upload_job.py:push():130] Uploaded file C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\files\wandb-summary.json
+2024-07-24 16:51:19,640 INFO    Thread-15 :18984 [sender.py:transition_state():614] send defer: 11
+2024-07-24 16:51:19,640 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:19,640 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-24 16:51:19,641 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:19,641 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-24 16:51:19,641 INFO    SenderThread:18984 [file_pusher.py:join():175] waiting for file pusher
+2024-07-24 16:51:19,642 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 12
+2024-07-24 16:51:19,642 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:19,643 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-24 16:51:19,643 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:19,643 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-24 16:51:19,643 INFO    SenderThread:18984 [file_stream.py:finish():601] file stream finish called
+2024-07-24 16:51:19,718 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-24 16:51:20,401 INFO    SenderThread:18984 [file_stream.py:finish():605] file stream finish is done
+2024-07-24 16:51:20,401 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 13
+2024-07-24 16:51:20,401 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 16:51:20,402 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:20,402 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-24 16:51:20,403 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:20,403 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-24 16:51:20,403 INFO    SenderThread:18984 [sender.py:transition_state():614] send defer: 14
+2024-07-24 16:51:20,403 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: defer
+2024-07-24 16:51:20,403 INFO    HandlerThread:18984 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-24 16:51:20,404 DEBUG   SenderThread:18984 [sender.py:send():379] send: final
+2024-07-24 16:51:20,404 DEBUG   SenderThread:18984 [sender.py:send():379] send: footer
+2024-07-24 16:51:20,404 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: defer
+2024-07-24 16:51:20,404 INFO    SenderThread:18984 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-24 16:51:20,404 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-24 16:51:20,405 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: server_info
+2024-07-24 16:51:20,405 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-24 16:51:20,405 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 16:51:20,406 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-24 16:51:20,406 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: server_info
+2024-07-24 16:51:20,406 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-24 16:51:20,408 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-24 16:51:20,667 DEBUG   SenderThread:18984 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 16:51:20,668 INFO    MainThread:18984 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-24 16:51:20,669 INFO    MainThread:18984 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-24 16:51:20,672 INFO    MainThread:18984 [wandb_run.py:_footer_sync_info():3950] logging synced files
+2024-07-24 16:51:20,672 DEBUG   HandlerThread:18984 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-24 16:51:20,673 INFO    HandlerThread:18984 [handler.py:finish():882] shutting down handler
+2024-07-24 16:51:21,415 INFO    WriterThread:18984 [datastore.py:close():296] close: C:\Users\happyelements\workstation\RLWorkstation\RouterAgent\wandb\run-20240724_164759-0yh98vmz\run-0yh98vmz.wandb
+2024-07-24 16:51:21,680 INFO    SenderThread:18984 [sender.py:finish():1608] shutting down sender
+2024-07-24 16:51:21,680 INFO    SenderThread:18984 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-24 16:51:21,680 INFO    SenderThread:18984 [file_pusher.py:join():175] waiting for file pusher
