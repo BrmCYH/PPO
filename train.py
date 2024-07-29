@@ -38,12 +38,12 @@ def train_iteration(modelargs: Modelargs, trainingargs:Trainingargs, envargs:Env
     env = ob_envs(envargs= envargs)
     avgrewardslist = []
     for t in range(1, trainingargs.episodes):
-        observation,info = env.reset()
+        observation, _,_ = env.reset()
         current_ep_reward = 0
         update_steps = 0
         while True:
             start = time.time()
-            old_observation = torch.tensor(observation.tolist())
+            old_observation = observation
             action, action_logprob, state_val = ppo.select_action(observation)
             action = action.item()
             if envargs.apply_api_compatibility:

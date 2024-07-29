@@ -1,45 +1,48 @@
-import threading
+import multiprocessing
 import numpy as np
 import mss, keyboard
 import time, cv2
-import pyautogui
+import win32gui
+import torchvision
+from imgProcess import imgProcess
+import torch
 def dealwith(pic):
+    pointer_dir, target_dir, distance, img_binary = imgProcess(pic)
+    img_state = torchvision.transforms.Normalize(0.5,0.5)(img_binary)
+    return pointer_dir, target_dir, distance, img_state
     
-    return 1,1,1
 class KeyboardScreenshotThread:
     def __init__(self):
-        self.exit_event = threading.Event()
-        self.keyboard_thread = threading.Thread(target=self.keyboard_listener_thread)
+        self.exit_event = multiprocessing.Event()
+        self.queue = multiprocessing.Queue(1)
+        self._suskeyboard = multiprocessing.Process(target=self.keyboard_press,args=(self.queue, self.exit_event))
         
     def start(self):
-        self.keyboard_thread.start()
+        self._suskeyboard.start()
         
     
     def stop(self):
         self.exit_event.set()
-        self.keyboard_thread.join()
-    
-    def keyboard_listener_thread(self):
-        def on_key_event(event):
-            if event.event_type == keyboard.KEY_DOWN:
-                print(f"Key {event.name} was pressed")
-                self.take_screenshot = True
+        self._suskeyboard.join()
+
+    def keyboard_press(self, queue, event):
         
-        keyboard.on_press(on_key_event)
-
-        while not self.exit_event.is_set():
-            time.sleep(0.1)  # 每隔一段时间检查退出事件
-
-        keyboard.unhook_all()
+        while not event.is_set():
+            try:
+                key = queue.get()
+                keyboard.press(key)
+            except KeyboardInterrupt:
+                print(f"-----stoping-----")
+                break
     def execute_keyboard_down(self, act):
         '''
             STATIC 
                 Ascii - KEYBOARD
                 turning Agent predict action to Action
         '''
-        # Press keyboard
-        pyautogui.press('space')
-
+        
+        self.queue.put(act)
+        
         with mss.mss() as sct:
             monitor = sct.monitors[1]
             screenshot = sct.grab(monitor)
@@ -48,21 +51,18 @@ class KeyboardScreenshotThread:
         status, rewards, terminal = dealwith(screensnap_np)
         return status, rewards, terminal
 
-if __name__ == "__main__":
-    thread_manager = KeyboardScreenshotThread()
-    thread_manager.start()
+def set_window_top(window_title):
+    hwnd =  win32gui.FindWindow(None, window_title)
+    if hwnd !=0:
+        win32gui.SetForegroundWindow(hwnd)
+if __name__ == '__main__':
+    set_window_top("原神")
+    key = KeyboardScreenshotThread()
+    key.start()
+    for i in ['w','a','d','w','s']:
+        key.execute_keyboard_down(i)
+        # sustain time
+        time.sleep(2)
 
-    # 主程序可以继续执行其他任务
-    try:
-        i=0
-        while True:
-            time.sleep(1)  # 这里可以加入主程序的逻辑
-            x = time.time()
-            i=i+1
-            print(i)
-            print(thread_manager.execute_keyboard_down(1),f"time executed {time.time()-x}")
-            
-    except KeyboardInterrupt:
-        print("KeyboardInterrupt detected, stopping threads...")
-        thread_manager.stop()
-        print("Threads stopped.")
+    time.sleep(3)
+    key.stop()

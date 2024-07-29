@@ -39,8 +39,8 @@ class MemoryBuffer:
         terminal = self._terminal[batch_idx]
         values = self._state_values[batch_idx]
         return obs, action, reward, next_obs, logprob, terminal, values
-    def append(self, obs, act, reward, next_obs, logprob, terminal, values):
-        snap = self.align_tensor(self.return_tensor, obs = obs, act = act, reward = reward, next_obs= next_obs, logprob=logprob, terminal=terminal, values=values)
+    def append(self, obs, img, act, reward, next_obs, logprob, terminal, values):
+        snap = self.align_tensor(self.return_tensor, obs = obs, img = img, act = act, reward = reward, next_obs= next_obs, logprob=logprob, terminal=terminal, values=values)
         
         if self._curr_size >= self.maxsize:
             self._state      =  torch.cat((snap['obs'],self._state), dim = 0)[:-1, :]

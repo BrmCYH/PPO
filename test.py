@@ -3,7 +3,7 @@ import keyboard
 import mss
 import time
 import numpy as np
-import cv2
+import cv2, base64
 class KeyboardListener:
     def __init__(self):
         self.exit_event = threading.Event()
@@ -39,10 +39,11 @@ class KeyboardListener:
                 screenshot = sct.grab(monitor)
                 screenshot_np = np.array(screenshot)
                 screenshot_cv2 = cv2.cvtColor(screenshot_np, cv2.COLOR_RGB2BGR)
-                # _, buffer = cv2.imencode(".png", screenshot_cv2)
-                # image_base64 = base64.b64encode(buffer).decode('utf-8')
+                _, buffer = cv2.imencode(".png", screenshot_cv2)
+                image_base64 = base64.b64encode(buffer).decode('utf-8')
+                
                 # ret, frame = screenshot.read()
-                cv2.imshow('Screenshot', screenshot_cv2)
+                # cv2.imshow('Screenshot', screenshot_cv2)
                 # 在这里可以添加处理截图的逻辑，比如保存、显示或者进一步处理
 
                 time.sleep(10)  # 每隔一秒截图一次

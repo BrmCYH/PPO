@@ -53,8 +53,6 @@ class PPOTrain:
                     sd_pion[name].copy_(kwargs['state_dict'][name])
             self.pioneer.load_state_dict(sd_pion)
             print("weight load from pretrained model.")
-            # self.lazzy = torch.compile(self.lazzy)
-        # self.lazzy.load_state_dict(self.pioneer.state_dict())
     def get_lr(self, steps, ith):
         if ith ==0:
             
@@ -72,8 +70,6 @@ class PPOTrain:
         
 
     def select_action(self, state: Union[numpy.ndarray, torch.Tensor]):
-        # with torch.no_grad():
-        # assert state.shape
         state = MemoryBuffer.type_fine(state)
         action, action_logprob, state_val = self.policy_act(state)
         
@@ -94,12 +90,9 @@ class PPOTrain:
         
         return advantages
     def update(self):
-        # rewards = self.reverse_buffer()
-        # To consider the 
         rewards = self.buffer.get_r_trend('average',gamma = self.gamma)        
-        # old_states, old_actions, old_logprobs, old_state_values = self.infos_to_device()
         old_states, rewards, old_actions, _ , old_logprobs, old_state_values = self.buffer.return_tensors()
-        # v-loss = (rewards - rewards.means()) - truth_rewards
+        
         advantages = self.get_advantage(rewards, old_state_values)
         
         for steps in range(1, self.K_epochs+1):

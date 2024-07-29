@@ -14,18 +14,19 @@ class ActionLearning(nn.Module):
             Policy Actor
             Value Function Actor : Can help us need not to get the target pennolize position for estimating the value of doing this action
         '''
-        
+        # self.image_model = nn.Sequential(
+        #     nn.Conv2d(),
+        #     nn.BatchNorm2d(),
+        #     nn.Conv2d(modelargs.hidden_dim, modelargs.hidden_dim),
+        #     nn.Conv2d(modelargs.hidden_dim, modelargs.hidden_dim),
+        # )
         self.model = nn.ModuleDict(
             dict(
                 stateemb = nn.Linear(modelargs.state_dim, modelargs.hidden_dim),
                 
                 relu = nn.ReLU(),
                 layernormal = nn.LayerNorm(modelargs.hidden_dim),
-                # mlp = nn.Sequential(
-                #     nn.Linear(modelargs.hidden_dim, modelargs.hidden_dim),
-                #     nn.Sigmoid(),
-                #     nn.Linear(modelargs.hidden_dim, modelargs.hidden_dim)
-                # ),
+                
                 mlp = nn.Sequential(
                     nn.Linear(modelargs.hidden_dim, modelargs.hidden_dim),
                     nn.ReLU(),
